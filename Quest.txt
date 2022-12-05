@@ -1,5 +1,4 @@
 Добро пожаловать в текстовый квест «Выжить после сессии». Вы студент 2 курса АВТФ и должны ответить на несколько вопросов
-
 Электротехника:
 1) Что произойдет, если в электрической цепи с последовательно соединенными лампами одна из ламп сгорит?
 а) Остальные лампочки гореть не будут
@@ -24,8 +23,7 @@
 б) Верно только А
 в) Верно только В
 
-Английский: 
- 
+Английский:  
 Ответьте на 2  вопроса по тексту. 
 Their house was very small. The four walls, the floor and the roof made one room. There was a cooker, a cupboard for the dishes, a table, three or four chairs, and two beds. Uncle Henry and Aunt Em had a big bed, and Dorothy had a little bed. There was a small hole with a ladder under the house where they hid during a storm. Very often, there are storms in Kansas, and winds are very strong during a storm.
 1)  How many rooms were there in the house?
@@ -33,12 +31,10 @@ a) One
 b) Two
 c) Three
 
-
 2) Why was there a small hole with a ladder under the house?
 a) For Dorothy to sleep
 b) For the family to live
 c) For the family to hide during the storm
-
 
 3) They don't have very ... time to prepare for the concert.
 a) many
@@ -56,7 +52,6 @@ b) Налог на сахар
 c)Налог на перец
 
 Программирование:
-
 1) Что такое сериализация?
 а) Процесс преобразования объекта в поток байтов для сохранения или передачи в память, базу данных или файл. 
 б) Восстановление структур и объектов из последовательности байтов.
@@ -100,5 +95,3 @@ c)Налог на перец
 3
 1
 1
-
-
