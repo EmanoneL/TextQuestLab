@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="386" Width="525">
+    <Grid x:Name="layoutGrid" Margin="0,0,0,18">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="487*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="384,10,0,0" VerticalAlignment="Top" Height="30" Width="70" Grid.Column="1" Opacity="0.975" Click="Button_Click_Exit"/>
+        <TextBlock x:Name="textBoxStep" HorizontalAlignment="Left" Margin="30,54,0,0" TextWrapping="Wrap" Text="{Binding Path=Text}" VerticalAlignment="Top" Width="390" Height="50" Grid.Column="1"/>
+        <ListBox x:Name="variantsList" ItemsSource="{Binding Variants}" RenderTransformOrigin="5.279,0.598" Grid.ColumnSpan="2" Margin="34,144,33,10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <Button Width="400" Height="45" Content="{Binding Path=Text}" Click="Button_Click_NextStep"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
